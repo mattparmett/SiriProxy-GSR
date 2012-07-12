@@ -1,0 +1,10 @@
+SiriGSR is a Siri Proxy plugin that allows you to book Group Study Rooms (GSRs) at Penn through Siri on your iPhone.  The plugin uses the Mechanize gem to navigate the mobile GSR website and book the room.
+
+Syntax/Usage: 
+	"Reserve a GSR on [MONTH] [DAY] at [TIME] [AM/PM] for [DURATION (30/60/90)] minutes."
+	"Cancel my GSR."
+
+SiriGSR was created by Matt Parmett.  You are free to use, modify, and redistribute this gem as long as proper credit is given to the original author.
+
+Installation:
+	To install SiriIMDB, edit your Siri Proxy config.yml file to include the parameters listed in the included config-info.yml file.  Then, run "bundle install" or "siriproxy bundle" in your Siri Proxy directory to install the SiriIMDB gem.
